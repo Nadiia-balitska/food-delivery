@@ -35,3 +35,20 @@
   border-radius: 50px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1050px) {
+  */ .header_contents {
+    min-width: 45%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .header_contents {
+    min-width: 65%;
+  }
+  .header_contents p {
+    display: none;
+  }
+  .header_contents button {
+    padding: 2vw 4vw;
+  }
+}
