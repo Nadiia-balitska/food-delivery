@@ -37,8 +37,8 @@
 }
 
 @media only screen and (max-width: 1050px) {
-  */ .header_contents {
-    min-width: 45%;
+  .header_contents {
+    max-width: 45%;
   }
 }
 @media only screen and (max-width: 750px) {
